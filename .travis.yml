@@ -9,7 +9,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   local_dir: docs/.vuepress/dist
-  # repo: klwfwdk/klwfwdk.github.io
+  repo: klwfwdk/klwfwdk.github.io
   github-token: $GITHUB_TOKEN # a token generated on github allowing travis to push code on you repository
   keep-history: true
   on:
