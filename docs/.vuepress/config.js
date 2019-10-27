@@ -1,7 +1,6 @@
 module.exports = {
   "title": "KLWF 技术博客",
   "description": "",
-  "dest": "public",
   "head": [
     [
       "link",
