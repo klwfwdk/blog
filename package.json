@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "copy": "vuepress eject docs"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/klwfwdk/blog#readme",
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vuepress": "^1.2.0",
+    "vuepress-theme-reco": "^1.1.0"
   }
 }
