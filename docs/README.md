@@ -1,6 +1,7 @@
 ---
 home: true
 faceImage: '/head.png'
+bgImage: '/bgimg.jpg'
 description: 'VuePress赛高'
 heroImageStyle: {
   maxWidth: '600px',

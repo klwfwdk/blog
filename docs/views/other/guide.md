@@ -5,6 +5,7 @@ tags:
  - tag2
 categories:
  - other
+publish: false
 ---
 
 ![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)
