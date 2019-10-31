@@ -1,6 +1,6 @@
 ---
 title: vuepress-theme-reco
-date: 2019-04-09
+date: 2019-11-01
 tags:
  - tag2
 categories:
