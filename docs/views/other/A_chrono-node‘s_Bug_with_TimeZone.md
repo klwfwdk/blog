@@ -16,7 +16,7 @@ you can find its document from [NPM](https://www.npmjs.com/package/chrono-node) 
 
 ## What is the probleam
 ### introduction
-when use the chrono-node to parse the String with abbr of timezone like `'9 AM PST'`, the hour and years is right, but day wasn't always accurate. It not base on the day in PST, it base the day in local timezone.
+when use the chrono-node to parse the String with abbr of timezone like `'9 AM PST'`, the hour and year are right, but day wasn't always accurate. It not base on the day in PST, it base the day in local timezone.
 ### test case
 In order to reproduce the above problems you can fist clone the chono-node and add the case into the test dir
 1.  clone and Install dependencies
@@ -138,4 +138,5 @@ if (!JSON.stringify(result.tags).match(/DateAndTime/i)) {
 }
 ```
 the hight light lines are what you have to adding in.
-add`if (!JSON.stringify(result.tags).match(/DateAndTime/i)) { ` to avoid overridden date parse results.
+add`if (!JSON.stringify(result.tags).match(/DateAndTime/i))` to avoid overridden date parse results.
+
