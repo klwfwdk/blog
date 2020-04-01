@@ -1,7 +1,7 @@
 ---
 home: true
 faceImage: '/head.png'
-bgImage: 'https://user-gold-cdn.xitu.io/2019/11/1/16e26254127444e0?w=4032&h=2268&f=jpeg&s=450270'
+bgImage: 'https://klwf.oss-cn-beijing.aliyuncs.com/16e26254127444e0'
 description: 'VuePress赛高'
 heroImageStyle: {
   maxWidth: '600px',

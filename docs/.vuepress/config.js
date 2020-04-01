@@ -15,6 +15,13 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
+    ],
+    [
+      "meta",
+      {
+         "name":"baidu-site-verification",
+         "content":"u0k2IyUyN9"
+      }
     ]
   ],
   "theme": "reco",
