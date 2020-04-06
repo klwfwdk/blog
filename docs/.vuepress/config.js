@@ -24,8 +24,7 @@ module.exports = {
       }
     ],
     ['script',{crossorigin:"anonymous",integrity:"sha384-8t+aLluUVnn5SPPG/NbeZCH6TWIvaXIm/gDbutRvtEeElzxxWaZN+G/ZIEdI/f+y",src:"//lib.baomitu.com/vue/2.6.10/vue.min.js"}],
-    ['script',{crossorigin:"anonymous",integrity:"sha384-CFKP4mu2aEZDylNmi3T4nvSVvMIjfqDkz2rfskdOAkPkAIocK+cqVh+rLVAnonK5",src:"//lib.baomitu.com/vue-router/3.1.3/vue-router.min.js"}],
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['script',{crossorigin:"anonymous",integrity:"sha384-CFKP4mu2aEZDylNmi3T4nvSVvMIjfqDkz2rfskdOAkPkAIocK+cqVh+rLVAnonK5",src:"//lib.baomitu.com/vue-router/3.1.3/vue-router.min.js"}]
   ],
   "theme": "reco",
   "themeConfig": {
