@@ -1,7 +1,7 @@
 ---
 home: true
 faceImage: '/head.png'
-bgImage: 'https://klwf.oss-cn-beijing.aliyuncs.com/16e26254127444e0'
+bgImage: 'https://klwfblog.oss-cn-beijing.aliyuncs.com/bgimg.jpg'
 description: 'VuePress赛高'
 heroImageStyle: {
   maxWidth: '600px',
