@@ -50,7 +50,7 @@ self.addEventListener('fetch', function (e) {
 ## Push Cache
 Push Cache 是基于 HTTP2的 HTTP push 的缓存机制，具体使用方法是通过响应头的 LINK，如下
 
-```Header
+```
 Link: </css/styles.css>; rel=preload; as=style
 ```
 相当于在返回html的过程中就同时向浏览器推送style资源，这样的当检测到浏览器已经接收到了推送的资源后就使用缓存的内容。
