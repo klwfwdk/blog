@@ -14,18 +14,15 @@ try {
 
 
 // # 进入生成的文件夹
-cd('./docs/.vitepress/dist')
+await cd('./docs/.vitepress/dist')
 
 // # 如果是发布到自定义域名
 // # echo 'www.example.com' > CNAME
 
-await Promise.all([
-  $`git init`,
-  $`git add -A`,
-  $`git commit -m 'deploy'`,
-]).then(async () => {
-  await $`git push -f git@github.com:klwfwdk/klwfwdk.github.io.git master`
-})
+await $`git init`,
+await $`git add -A`,
+await $`git commit -m 'deploy'`,
+await $`git push -f git@github.com:klwfwdk/klwfwdk.github.io.git master`
 
 // # 如果发布到 https://<USERNAME>.github.io
 
